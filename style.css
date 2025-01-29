@@ -1,0 +1,34 @@
+/* Cambia fondo y letras del cuerpo completo*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 2;
+    padding: 2;
+    background-color: #363062; /* Color de fondo */
+    color: #ffffff; /* Color de texto */
+    line-height: 1.6;
+  }
+
+  /* Container Titulo Principal*/
+  .containerTP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    color: #F5F5F5;
+    background-color: #ed8e1b; /*Color de Fondo*/
+    border-radius: 15px;
+    box-shadow: 0 5px 10px #000000; /*Color de Sombras*/
+}
+
+.containerALLTX {
+  width: 80%;
+  margin: 10px auto;
+  padding: 20px;
+  color: #F5F5F5;
+  background-color: #F99417; /*Color de Fondo*/
+  border-radius: 15px;
+  box-shadow: 0 10px 10px #000000; /*Color de Sombras*/
+}

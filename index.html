@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TareaEstruc</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="containerTP">
+      <h1 style="font-size: 205%">Estructura de Datos</h1>
+    </div>
+
+    <div class="containerALLTX">
+      <h1>Introducción.</h1>
+
+      <p>
+        En el mundo de la informática, los datos son fundamentales para la
+        ejecución de cualquier programa o algoritmo. Sin embargo, no basta con
+        tener los datos; es igual de importante cómo se organizan. Las
+        estructuras de datos nos proporcionan formas eficientes de almacenar y
+        gestionar información, permitiendo realizar operaciones con rapidez y
+        optimizando los recursos computacionales.
+      </p>
+      <div style="text-align: center">
+        <img
+          src="contenido/ejemplo.jpg"
+          alt="Primer ejemplo del texto"
+          width="500"
+          height="300"
+        />
+      </div>
+      <h2>Que es y para que sirve?</h2>
+      <p>
+        Una estructura de datos es una forma de organizar los datos en una
+        computadora para que sea más fácil y eficiente trabajar con ellos.
+        Dependiendo de la operación que se quiera realizar (insertar, buscar,
+        ordenar, eliminar), algunas estructuras serán más rápidas que otras. Por
+        ejemplo, mientras un array permite acceder a un elemento rápidamente
+        mediante su posición, otras estructuras como árboles o grafos son más
+        adecuadas para representar relaciones complejas o priorizar datos.
+      </p>
+      <div style="text-align: center">
+        <img
+          src="contenido/ejemplo2.jpg"
+          alt="segundo ejemplo de contenido"
+          width="500"
+          height="300"
+        />
+      </div>
+
+      <h2>Tipo de Estructuras.</h2>
+
+      <h4>✧ Estructuras de Datos Contiguas (Estáticas):</h4>
+      <p>
+        Vectores (Arrays): Colecciones de elementos del mismo tipo almacenados
+        en posiciones de memoria contiguas. Permiten acceso directo a cualquier
+        elemento mediante su índice.
+      </p>
+
+      <div style="text-align: center">
+        <img src="contenido/arrays.jpg" alt="Ejemplo (VectoresArrays)" />
+      </div>
+
+      <p>
+        Matrices: Extensión de los vectores a dos o más dimensiones, útiles para
+        representar tablas o datos multidimensionales.
+      </p>
+
+      <div style="text-align: center">
+        <img
+          src="contenido/matrices.avif"
+          alt="ejemplodematrices"
+          width="350"
+          height="100"
+        />
+      </div>
+
+      <h4>✧ Estructuras de Datos Enlazadas (Dinámicas):</h4>
+      <p>
+        Listas Enlazadas: Conjuntos de nodos donde cada uno contiene un dato y
+        una referencia (enlace) al siguiente nodo. Facilitan la inserción y
+        eliminación de elementos en cualquier posición.
+      </p>
+
+      <div style="text-align: center">
+        <img
+          src="contenido/listaenlazadas.png"
+          alt=""
+          width="500"
+          height="300"
+        />
+      </div>
+
+      <p>
+        Listas Doblemente Enlazadas: Similar a las listas enlazadas simples,
+        pero cada nodo tiene referencias tanto al siguiente como al anterior
+        nodo, lo que permite una navegación bidireccional.
+      </p>
+
+      <div style="text-align: center">
+        <img
+          src="contenido/listasdoble.png"
+          alt="ejemplolistasdoble"
+          width="490"
+          height="270"
+        />
+      </div>
+
+      <h4>✧ Estructuras Lineales:</h4>
+      <p>
+        Pilas (Stacks): Estructuras que siguen el principio LIFO (Last In, First
+        Out), donde el último elemento en entrar es el primero en salir. Se
+        utilizan en aplicaciones como la gestión de llamadas de funciones y
+        operaciones de deshacer en editores.
+      </p>
+
+      <div style="text-align: center">
+        <img
+          src="contenido/Pila.png"
+          alt="ejemplodepila"
+          width="300"
+          height="200"
+        />
+      </div>
+
+      <p>
+        Colas (Queues): Estructuras que siguen el principio FIFO (First In,
+        First Out), donde el primer elemento en entrar es el primero en salir.
+        Son útiles en la gestión de procesos en sistemas operativos y en la
+        transmisión de datos.
+      </p>
+
+      <div style="text-align: center">
+        <img
+          src="contenido/cola.png"
+          alt="ejemplodecola"
+          width="400"
+          height="250"
+        />
+      </div>
+
+      <h4>✧ Estructuras No Lineales:</h4>
+      <p>
+        Árboles: Estructuras jerárquicas donde cada nodo tiene un valor y
+        referencias a nodos hijos. Los árboles binarios, un caso particular,
+        tienen nodos con hasta dos hijos y se emplean en algoritmos de búsqueda
+        y ordenación.
+      </p>
+
+      <div style="text-align: center">
+        <img
+          src="contenido/arbol.jpg"
+          alt="ejemplodearbol"
+          width="480"
+          height="280"
+        />
+      </div>
+
+      <p>
+        Grafos: Conjuntos de nodos conectados por aristas, utilizados para
+        representar relaciones complejas como redes de transporte, conexiones de
+        redes informáticas o relaciones sociales.
+      </p>
+
+      <div style="text-align: center">
+        <img
+          src="contenido/Grafos.png"
+          alt="ejemplodegrafo"
+          width="450"
+          height="280"
+        />
+      </div>
+
+      <h2>¿Qué es la complejidad algorítmica?</h2>
+      <p>
+        La complejidad algorítmica mide la eficiencia de un algoritmo en
+        términos del tiempo que tarda en ejecutarse (complejidad temporal) y la
+        memoria que utiliza (complejidad espacial). Este análisis permite prever
+        el rendimiento del algoritmo al trabajar con diferentes tamaños de
+        datos, ayudando a optimizar recursos.
+      </p>
+
+      <h3>Tipos de complejidad algorítmica.</h3>
+      <h4>1. Complejidad Temporal.</h4>
+      <p>
+        Evalúa el tiempo de ejecución según el tamaño de los datos de entrada
+        (n). Los casos más comunes son:
+      </p>
+
+      <p>
+        • O(1) - Constante: El tiempo no cambia según el tamaño de los datos.
+        Ej.: Acceso a un elemento en un array.
+      </p>
+      <p>
+        • O(log n) - Logarítmica: Crece lentamente aunque los datos aumenten.
+        Ej.: Búsqueda binaria.
+      </p>
+      <p>
+        • O(n) - Lineal: El tiempo crece proporcionalmente al tamaño de la
+        entrada. Ej.: Recorrer una lista.
+      </p>
+      <p>
+        • O(n log n): Común en algoritmos de ordenación eficientes como Merge
+        Sort.
+      </p>
+      <p>
+        • O(n²) - Cuadrática: El tiempo aumenta exponencialmente con datos
+        grandes. Ej.: Comparar todos los pares en un array.
+      </p>
+      <p>
+        • O(2ⁿ) - Exponencial: Crecimiento muy rápido, impráctico para entradas
+        grandes. Ej.: Resolver problemas con fuerza bruta.
+      </p>
+
+      <h4>2. Complejidad Espacial.</h4>
+      <p>Se refiere a la memoria que necesita un algoritmo:</p>
+
+      <p>
+        • O(1): No requiere espacio adicional proporcional al tamaño de los
+        datos. Ej.: Operaciones matemáticas simples.
+      </p>
+      <p>
+        • O(n): La memoria crece linealmente con la entrada. Ej.: Almacenar
+        resultados en un array.
+      </p>
+      <p>
+        • O(n²): Común en algoritmos que usan matrices. Ej.: Matriz de
+        adyacencia en grafos. sociales.
+      </p>
+
+      <h2>Beneficios del uso de las estructuras de datos.</h2>
+      <p>
+        Las estructuras de datos ofrecen múltiples ventajas cuando se utilizan
+        en diversas aplicaciones. Una importante es la capacidad de almacenar y
+        acceder a los datos de forma organizada y eficaz.
+      </p>
+
+      <p>
+        Utilizando estructuras como matrices o listas enlazadas, los
+        desarrolladores pueden aprovechar operaciones de búsqueda y recuperación
+        más rápidas, lo que las hace adecuadas para bases de datos a gran escala
+        o aplicaciones en tiempo real.
+      </p>
+
+      <p>
+        Otra ventaja de las estructuras de datos es el uso optimizado de la
+        memoria. Mediante estructuras como los árboles binarios o las tablas
+        hash, se puede maximizar la asignación de memoria y utilizar los
+        recursos con un desperdicio mínimo. Esto es especialmente útil en
+        sistemas con restricciones de memoria, haciendo que funcionen y
+        respondan con eficacia.
+      </p>
+
+      <p>
+        También fomentan la reutilización del código y la modularidad. Al crear
+        componentes reutilizables con estructuras como la lista enlazada, los
+        desarrolladores pueden integrarlos rápidamente en los proyectos,
+        ahorrando tiempo y esfuerzo.
+      </p>
+
+      <p>
+        Además, proporcionan un enfoque sistemático para la resolución de
+        problemas, lo que permite a los desarrolladores crear algoritmos
+        eficientes y optimizar sus aplicaciones.
+      </p>
+    </div>
+  </body>
+</html>
