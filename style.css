@@ -1,34 +1,67 @@
-/* Cambia fondo y letras del cuerpo completo*/
-
+/* Configuración general */
 body {
-    font-family: Arial, sans-serif;
-    margin: 2;
-    padding: 2;
-    background-color: #363062; /* Color de fondo */
-    color: #ffffff; /* Color de texto */
-    line-height: 1.6;
-  }
-
-  /* Container Titulo Principal*/
-  .containerTP {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    margin: 20px auto;
-    padding: 20px;
-    color: #F5F5F5;
-    background-color: #ed8e1b; /*Color de Fondo*/
-    border-radius: 15px;
-    box-shadow: 0 5px 10px #000000; /*Color de Sombras*/
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #363062;
+  color: #ffffff;
+  line-height: 1.6;
 }
 
+/* Container Título Principal */
+.containerTP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  color: #f5f5f5;
+  background-color: #ed8e1b;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px #000000;
+  text-align: center;
+}
+
+/* Contenedor de texto */
 .containerALLTX {
   width: 80%;
   margin: 10px auto;
   padding: 20px;
-  color: #F5F5F5;
-  background-color: #F99417; /*Color de Fondo*/
+  color: #f5f5f5;
+  background-color: #f99417;
   border-radius: 15px;
-  box-shadow: 0 10px 10px #000000; /*Color de Sombras*/
+  box-shadow: 0 10px 10px #000000;
+}
+
+/* Botón de inicio */
+#btnInicio {
+  position: fixed;
+  bottom: 3vh;
+  right: 3vw;
+  background-color: #007bff;
+  color: white;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Responsividad: Ajustes para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+  .containerTP {
+    width: 80%;
+    padding: 15px;
+  }
+
+  .containerALLTX {
+    width: 95%;
+    padding: 15px;
+  }
+
+  #btnInicio {
+    font-size: 1rem;
+    padding: 0.8rem 1.2rem;
+  }
 }
